@@ -1,7 +1,7 @@
 package week2;
 
 /**
- * Write a program that can calculate the vlume of a sphere
+ * Write a program that can calculate the volume of a sphere
  */
 public class HW6 {
     public static void main(String[] args) {
