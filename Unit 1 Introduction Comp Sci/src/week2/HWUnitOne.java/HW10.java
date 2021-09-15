@@ -8,11 +8,11 @@ public class HW10 {
         double xp;
         double xn;
         double a = 4;
-        double b = 6;
-        double c = 8;
+        double b = 10;
+        double c = 2;
 
         xp = -b + Math.sqrt((b * b) - (4 * a * c)) / (2 * a);
         xn = -b - Math.sqrt((b * b) - (4 * a * c)) / (2 * a);
-
+        System.out.print(xp);
     }
 }
