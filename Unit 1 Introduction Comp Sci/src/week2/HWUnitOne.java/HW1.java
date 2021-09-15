@@ -11,6 +11,6 @@ public class HW1 {
 
         double numSqrd = number * number;
 
-        System.out.println(number + "x" + "=" + numSqrd);
+        System.out.println(number + " x " + number + " = " + numSqrd);
     }
 }
