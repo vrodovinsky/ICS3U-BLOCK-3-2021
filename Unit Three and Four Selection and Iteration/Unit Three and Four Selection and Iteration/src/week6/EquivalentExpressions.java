@@ -1,4 +1,4 @@
-package week6.java;
+package week6;
 
 public class EquivalentExpressions {
     public static void main(String[] args) {
