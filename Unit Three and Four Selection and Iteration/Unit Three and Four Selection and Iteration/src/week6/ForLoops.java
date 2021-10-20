@@ -8,9 +8,11 @@ public class ForLoops {
         forLoopExample2();
         forLoopExample3();
         forLoopExample4();
+
     }
 
     private static void forLoopExample4() {
+        int sum = 0;
         for (int i = 8, j = 5; j % i == 0; i += 2, j++) {
             System.out.println(i + " " + j);
         }
@@ -19,6 +21,7 @@ public class ForLoops {
     }
 
     private static void forLoopExample3() {
+        int sum = 0;
         int i = 1;
         for (; i < 10;) {
             System.out.println("Hi");
