@@ -1,11 +1,15 @@
 package week8;
 
+import javax.lang.model.util.ElementScanner6;
+
 public class Die {
+
+    public static final int DEFAULT_NUM_SIDES = 6;
     // attributes - defines teh state of the Object
 
     // the atributes SHOULD be private
     // private -> visiblE(accessible) in this class
-    private int numSides;
+    public int numSides;
     private int topSide;
 
     // constructor
@@ -16,7 +20,7 @@ public class Die {
     // Purpose is to initialize the state (attributes)
     public Die() {
         // constructor initializes the attributes
-        numSides = 6;
+        numSides = DEFAULT_NUM_SIDES;
         roll();
     }
 
@@ -33,5 +37,20 @@ public class Die {
 
     public int getTopSide() {
         return topSide;
+    }
+
+    public boolean equals(Object obj) {
+        if (obj == this)
+            return true;
+
+        if (obj instanceof Die) {
+            return this.topSide == ((Die) obj).topSide;
+        } else {
+            return false;
+        }
+    }
+
+    public String toString() {
+        return " " + topSide;
     }
 }
