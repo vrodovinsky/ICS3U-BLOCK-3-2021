@@ -10,7 +10,7 @@ public class Die {
     // the atributes SHOULD be private
     // private -> visiblE(accessible) in this class
     public int numSides;
-    private int topSide;
+    public int topSide;
 
     // constructor
     // has the same name as the class
