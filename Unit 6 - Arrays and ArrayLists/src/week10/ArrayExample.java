@@ -4,6 +4,27 @@ public class ArrayExample {
     public static void main(String[] args) {
         primitiveArray();
         arrayObjectExample();
+        iterateArrayExample();
+
+        int[] arr = { 5, 3, 2, 6, 3, 3 };
+        mystery(arr);
+    }
+
+    private static void iterateArrayExample() {
+        int[] arr = { 5, 3, 2, 6, 3, 3 };
+
+        int numOdd = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 1)
+                numOdd++;
+        }
+
+        System.out.println(numOdd);
+    }
+
+    private static void mystery(int[] arr) {
+        int index = (int) Math.random() * arr.length;
+        arr[index] = -arr[index];
     }
 
     private static void arrayObjectExample() {
