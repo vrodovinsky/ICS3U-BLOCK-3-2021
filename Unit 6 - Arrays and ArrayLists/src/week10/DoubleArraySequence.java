@@ -68,7 +68,7 @@ public class DoubleArraySequence {
     // Get empty sequence with a specified Capacity
     public DoubleArraySequence(int initialCapacity) throws IllegalArgumentException {
         if (initialCapacity < 0)
-            throw new IllegalArgumentException("Only Positive Capacitates allowed.");
+            throw new IllegalArgumentException("Only Positive Capacitates Allowed");
 
         manyItems = 0;
         currentIndex = 0;
@@ -257,9 +257,9 @@ public class DoubleArraySequence {
      **/
     public static DoubleArraySequence catenation(DoubleArraySequence s1, DoubleArraySequence s2) {
         if (s1 == null)
-            throw new NullPointerException("s1 is Null");
+            throw new NullPointerException("Sequence 1 is Null");
         if (s2 == null)
-            throw new NullPointerException("s2 is Null");
+            throw new NullPointerException("Sequence 2 is Null");
 
         DoubleArraySequence newSequence = new DoubleArraySequence(s1);
         newSequence.addAll(s2);
