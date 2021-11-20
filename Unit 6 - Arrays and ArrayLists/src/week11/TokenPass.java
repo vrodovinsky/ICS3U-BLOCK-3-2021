@@ -15,7 +15,6 @@ public class TokenPass {
     }
 
     public void distributeCurrentPlayerTokens() {
-
         int tokensLeft = tokens[currentPlayer];
         tokens[currentPlayer] = 0;
         int nextPlayer = currentPlayer + 1;

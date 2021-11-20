@@ -8,20 +8,21 @@ public class SelfDivisor {
             int digit = Integer.parseInt(temp.substring(i, i + 1));
             if (num / digit != 0)
                 return false;
-        }
 
-        return true;
+            return true;
+        }
     }
 
     public static int[] firstNumSelfDivisors(int start, int num) {
         int[] temp = new int[num];
-
+        int i = 0;
         int count = 0;
         while (count < temp.length) {
             if (isSelfDivisor(start)) {
                 temp[i] = start;
                 count++;
             }
+            i++;
             start++;
 
         }

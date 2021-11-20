@@ -6,6 +6,7 @@ public class SortingAlgorithms {
 
         selectionSort(arr);
         insertionSort(arr);
+
     }
 
     private static void insertionSort(int[] arr) {
