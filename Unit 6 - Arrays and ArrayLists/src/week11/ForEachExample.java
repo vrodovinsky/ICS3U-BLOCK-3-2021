@@ -12,7 +12,7 @@ public class ForEachExample {
         int numVowels = 0;
         String vowels = "aeiouAEIOU";
         for (String w : words) { // get the next word
-            // iterate throuhg the characters of w
+            // iterate through the characters of w
             for (int i = 0; i < w.length(); i++) {
                 String letter = w.substring(i, i + 1);
                 if (vowels.indexOf(letter) > -1)
