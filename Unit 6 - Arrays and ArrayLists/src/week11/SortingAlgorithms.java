@@ -4,7 +4,7 @@ public class SortingAlgorithms {
     public static void main(String[] args) {
         int[] arr = { 80, 70, 10, 15, 5, 90, 85 };
 
-        selectionSort(arr);
+        // selectionSort(arr);
         insertionSort(arr);
 
     }
