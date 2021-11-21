@@ -43,11 +43,11 @@ public class HorseBarn {
 
         int i = 0;
         for (Horse horse : spaces) {
-            if (Horse != null) {
-                temp[i] = horse;
-                i++;
-            }
+            // if (Horse != null) {
+            temp[i] = horse;
+            i++;
         }
+        // }
 
         spaces = temp;
     }
