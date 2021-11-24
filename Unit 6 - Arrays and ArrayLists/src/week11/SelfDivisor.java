@@ -11,6 +11,7 @@ public class SelfDivisor {
 
             return true;
         }
+        return false;
     }
 
     public static int[] firstNumSelfDivisors(int start, int num) {
