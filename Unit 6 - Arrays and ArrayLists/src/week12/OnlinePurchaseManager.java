@@ -1,9 +1,5 @@
 package week12;
 
-import javax.swing.text.StyledEditorKit.ForegroundAction;
-
-import week11.ForEachExample;
-
 public class OnlinePurchaseManager {
     /*
      * private ArrayList<Gizmo> purchases;
