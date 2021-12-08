@@ -1,7 +1,5 @@
 package week12;
 
-import javax.swing.text.StyledEditorKit.ForegroundAction;
-
 public class Delimiters {
     /*
      * private String openDel;
