@@ -43,7 +43,7 @@ public class Tracing {
             return -mystery5(-x, y);
         else if (y < 0)
             return -mystery5(x, -y);
-        return 100 * mystery5(x / 10, y / 10) + 10 * (x %1 0) + (y %1 0);
+        return 100 * mystery5(x / 10, y / 10) + 10 * (x % 10) + (y % 10);
     }
 
     public void mystery6(int x, int y) {
